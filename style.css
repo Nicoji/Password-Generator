@@ -1,3 +1,7 @@
+body {
+    background-color: #8a2be2;
+}
+
 h1 {
     font-size: 30px;
     text-align: center;
@@ -8,8 +12,12 @@ form {
     font-size: 20px;
 }
 
+small {
+    color: #29b8db;
+}
+
 .container {
-    margin-top: 30px;
+    margin-top: 50px;
     height: 500px;
 }
 
@@ -17,7 +25,9 @@ form {
     padding: 30px;
     border: 5px solid #29b8db;
     border-radius: 50px;
-    background-color: tan;
+    background-color: #6f51db;
+    padding-left: 50px;
+    color: #FFF;
 } 
 
 .form-control {
@@ -37,6 +47,14 @@ form {
 }
 
 .wrongSize {
-    background-color: red;
-    color: #deb887 !important;
+    background-color: #ff0000;
+    color: #FFF;
+}
+
+.btn-info {
+    background-color: #29b8db;
+}
+
+.btn-info:focus {
+    background-color: #29b8db;
 }
