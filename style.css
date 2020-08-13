@@ -1,3 +1,9 @@
+@media(max-width: 576px) {
+    label {
+        font-size: 19px;
+    }
+}
+
 body {
     background-color: #8a2be2;
 }
@@ -53,6 +59,8 @@ small {
 
 .btn-info {
     background-color: #29b8db;
+    font-size: 25px;
+    padding: 5px 20px;
 }
 
 .btn-info:focus {
